@@ -118,7 +118,7 @@ small {
   background: transparent;
   border-radius: 0 16px 0 16px;
   color: var(--yellow);
-  background-image: linear-gradient(180deg, rgba(222, 140, 47, 0.11), rgba(222, 140, 47, 0.5), var(--orange), var(--yellow));
+  background-image: linear-gradient(180deg, rgb(81 2 235 / 57%), rgb(151 9 88 / 85%), var(--orange), var(--yellow));
   background-size: 100% 300%;
   border: 1px solid var(--orange);
   cursor: pointer; }
