@@ -1,12 +1,12 @@
 :root {
   --black: #000;
   --grey: #999;
-  --text: #fff;
+  --text: #171717;
   --main-bg: #191817;
   --main-bg-lighter: rgba(166,166,166,0.12);
-  --yellow: #FEC864;
+  --yellow: #8658A5;
   --yellow-opacity: rgba(225,146,52,0.15);
-  --orange: #E19234;
+  --orange: #ED944D;
   --font-size-default: 18px;
   --font-default: 'Inconsolata', monospace, system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji';
   --font-heading: 'The Sonnyfive',system-ui;
