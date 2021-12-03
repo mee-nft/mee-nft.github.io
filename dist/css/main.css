@@ -4,7 +4,7 @@
   --text: #171717;
   --main-bg: #191817;
   --main-bg-lighter: rgba(166,166,166,0.12);
-  --yellow: #ffffff;
+  --yellow: #07000;
   --yellow-opacity: rgba(225,146,52,0.15);
   --orange: #6577B3;
   --font-size-default: 18px;
@@ -40,6 +40,7 @@ body {
   color: var(--text);
   position: relative;
   font-size: var(--font-size-default); }
+font-weight: bold;
 
 a {
   text-decoration: none;
