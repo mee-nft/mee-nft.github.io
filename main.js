@@ -17,20 +17,10 @@ async function login() {
   }
 }
 
-async function GetNFTs(
-{
-  const options = {chain: 'eth', address: '0x80a106cbc5c57d6ab2e33ea25b3b14ca9fafea44'};
-  const nfts = await Moralis.Web3.getNFTs(options);
-
-console.log(nfts);
-}
-  
 async function logOut() {
   await Moralis.User.logOut();
   console.log("logged out");
 }
-
-GetNFTs();
 
 document.getElementById("btn-login").onclick = login;
 document.getElementById("btn-logout").onclick = logOut;
