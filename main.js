@@ -40,6 +40,7 @@ var game = new Phaser.Game(config);
 
 function preload ()
 {
+  this.load.image('sky', 'assets/sky.png');
 }
 
 function create ()
